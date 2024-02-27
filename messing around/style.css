@@ -3,35 +3,68 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white; /* Light gray background */
 }
 
-.logo{
-    position: absolute;
-    height: 100px;
-    
+header {
+    background-color: black; /* Dark background for header */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.logo {
+    height: 60px; /* Adjust the height as needed */
 }
 
 .navbar {
-    background-color: white;
-    overflow: hidden;
     display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    offset-distance: 10px;
+    justify-content: center; /* Center the navbar horizontally */
+    width: 100%; /* Ensure the navbar takes full width */
 }
 
 .navbar a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 20px;
+    margin: 0 10px;
+    color: white;
     text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s; /* Smooth background color transition */
 }
 
 .navbar a:hover {
-    background-color: black;
+    background-color: white; /* Darker background color on hover */
+    color: black;
+}
+
+.mainui {
+    font-family: Arial, sans-serif;
+    margin: 20px; /* Added margin for better spacing */
+    padding: 20px; /* Added padding for better spacing */
+    text-align: center; /* Center align text */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.mainui h2 {
+    margin-bottom: 10px; /* Added space below heading */
+}
+
+.mainui p {
+    margin-bottom: 20px; /* Added space below paragraph */
+}
+
+.join_now {
+    background-color: navy; /* Dark button color */
     color: white;
-    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.join_now:hover {
+    background-color: lightskyblue; /* Darker button color on hover */
 }

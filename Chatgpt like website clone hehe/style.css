@@ -1,12 +1,14 @@
-/* STYLE.CSS */
+/* style.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    background-color: #343541;
+    background-color:#343541;
+    color: white;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -15,32 +17,35 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ccc;
     border-bottom: 1px solid #5c5c66;
     height: 45px;
 }
 
 .header h3{
-    font-size: 17px;
-    font-weight: bold;
+    font-weight: 500;
+    border-bottom: 20px;
 }
 
-.container{
-    max-width: 920px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-.coded{
+.info{
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 20;
 }
 
-.coded a{
-    color: white;
+.info a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+
+}
+
+.info a:hover{
+    color: lightgreen;
+}
+
+.text-box{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
 }

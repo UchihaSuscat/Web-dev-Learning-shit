@@ -55,8 +55,8 @@ img {
     color: #fff;
     background-color: #1d4ed8;
     border-radius: 5px;
-    cursor: pointer
-    transition: all 0,3s ease;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 .btn:hover{
     background-color: #1e40af;
@@ -327,41 +327,52 @@ footer .column > a:hover{
     text-align: center;
 }
 
-@media (width < 900px){
-    .nav-links{
+/* mobile */
+
+@media (max-width: 600px) {
+    .nav-links {
         display: none;
     }
-    header{
-        grid-template-columns: repeat(1, 1fr);
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        background-color: #1d4ed8;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 1000;
     }
-    header .image{
-        grid-area: 1/1/2/2;
-    }
-    .features{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .pricing{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    footer{
-        grid-template-columns: 1fr 200px;
+
+    .nav-links.active a {
+        color: white;
+        padding: 10px;
+        text-align: center;
+        border-radius: 0;
     }
 }
 
-@media (width < 600px){
-    header .image::before{
-        display: none;
+/* Tablet and larger screens styles */
+
+@media (min-width: 601px) {
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .features{
-        grid-template-columns: repeat(1, 1fr);
+    .nav-links a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        border-radius: 20px;
+        transition: color 0.5s;
     }
 
-    .pricing{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    footer{
-        grid-template-columns: 1fr 150px;
+    .nav-links a:hover {
+        color: red;
     }
 }

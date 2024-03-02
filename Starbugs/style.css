@@ -25,15 +25,10 @@ body{
     top: 35px;
 }
 
-.search img{
-    
-}
-
 .topmost {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: ;
     height: 100px;
     padding: 0 20px;
 }
@@ -52,7 +47,6 @@ body{
 .topmost a:active{
     text-decoration: underline;
     font-weight: bold;
-    text-decoration-offset: 10px;
     color: black;
 }
 

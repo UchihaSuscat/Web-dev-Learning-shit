@@ -1,0 +1,23 @@
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+
+.topmost{
+    display: flex;
+    justify-content: center;
+    align-items: safe;
+    height: 100px;
+}
+
+.topmost a{
+    display: flex;
+    font-size: large;
+    font-weight: light;
+    text-decoration: none;
+    margin: space;
+    padding: 5px 10px;
+    margin-top: 20px;
+
+}

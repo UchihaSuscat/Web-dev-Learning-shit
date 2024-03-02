@@ -8,30 +8,68 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.logo{
+.profile a img{
     position: absolute;
-    top: 15px;
-    left: 60px;
+    height: 55px;
+    right: 8px;
+    top: 20px;
 }
 
-input{
+.search{
+    position: absolute;
+    size: 30px;
+    background-color: white;
+    height: 20px;
+    border-radius: 5px;
+    right: 350px;
+    top: 35px;
+}
+
+.search img{
+    
+}
+
+.topmost {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: ;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.topmost .logo {
+    margin-right: 20px; 
+}
+
+.topmost a {
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 10px;
+    
+}
+
+.topmost a:active{
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-offset: 10px;
+    color: black;
+}
+
+.topmost a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.topmost input{
+    top: 26px;
+    right: 140px;
     position: absolute;
     border-radius: 20px;
     width: 200px;
     height: 30px;
-    text-align: center;
-}
-
-.topmost{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: safe;
-    height: 100px;
-}
-
-.topmost a{
-    display: flex;
-    text-decoration: none;
-    margin: 20px;
 }

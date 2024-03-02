@@ -8,6 +8,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar-thumb{
+    background-color: darkgreen;
+}
+
 .profile a img{
     position: absolute;
     height: 55px;
@@ -31,6 +35,8 @@ body{
     align-items: center;
     height: 100px;
     padding: 0 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .topmost .logo {
@@ -66,4 +72,34 @@ body{
     border-radius: 20px;
     width: 200px;
     height: 30px;
+}
+
+.second-topmost{
+    font-family: 'Poppins', sans-serif;
+    background-color: #00351c;
+    display: flex;
+    height: 80px;
+}
+
+.second-topmost a{
+    text-decoration: none;
+    color: white;
+    margin-top: 29px;
+
+}
+
+.know_more{
+    text-decoration: none;
+    font-size: small;
+    position: absolute;
+    right: 100px;
+    top: 125px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.randowhite{
+    display: flex;
+    height: 5px;
 }

@@ -6,6 +6,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    color: black;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -75,6 +76,7 @@ body{
 }
 
 .second-topmost{
+    cursor: pointer;
     font-family: 'Poppins', sans-serif;
     background-color: #00351c;
     display: flex;
@@ -83,6 +85,7 @@ body{
 
 .second-topmost a{
     text-decoration: none;
+    margin: 0 30px;
     color: white;
     margin-top: 29px;
 
@@ -95,11 +98,144 @@ body{
     right: 100px;
     top: 125px;
     border: 1px solid white;
-    padding: 5px 10px;
+    padding: 5px 0;
     border-radius: 20px;
 }
 
 .randowhite{
     display: flex;
     height: 5px;
+}
+
+.barista-recommends{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.319);
+    width: 100%;
+}
+
+.barista-recommends h2{
+    color: black;
+    margin: 0 90px;
+    font-weight: bold;
+}
+
+.barista-recommends a {
+    position: absolute;
+    text-decoration: none;
+    font-size: small;
+    text-shadow: 5 10 6px black;
+    color: darkgreen;
+    right: 90px;
+    top: 200px;
+}
+
+.barista-recommends img{
+    position: absolute;
+    right: 0px;
+    top: 180px;
+    width: 80px;
+    height: 80px;
+}
+
+.card .straw{
+    background-color: white;
+    width: fit-content;
+    height: 120px;
+    -webkit-box-shadow: -1px 0px 5px 6px rgba(0,0,0,0.13);
+    -moz-box-shadow: -1px 0px 5px 6px rgba(0,0,0,0.13);
+    box-shadow: -1px 0px 5px 6px rgba(0,0,0,0.13);
+    margin: 50px 90px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.card .straw p{
+    color: black;
+    margin: 6px 100px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.card .straw .not-imp1{
+    font-weight: 400;
+}
+
+.card .straw img{
+    position: absolute;
+    left: 100px;
+    top: 280px;
+    width: 90px; 
+    height: 90px;
+    border-radius: 20px;
+}
+
+.card .straw .btn-add{
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 890px;
+    font-size: medium;
+    background-color: rgb(6, 71, 0);
+    border: 1px solid rgb(6, 71, 0);
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3;
+}
+
+.card .straw .btn-add:hover{
+    background-color: black;
+    border-color: black;
+}
+
+.card .van{
+    background-color: white;
+    width: fit-content;
+    height: 120px;
+    -webkit-box-shadow: -1px 0px 5px 6px rgba(0,0,0,0.13);
+    -moz-box-shadow: -1px 0px 5px 6px rgba(0,0,0,0.13);
+    box-shadow: -1px 0px 5px 6px rgba(0,0,0,0.13);
+    margin: 50px 90px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.card .van p{
+    color: black;
+    margin: 6px 100px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.card .ban .not-imp2{
+    font-weight: 400;
+}
+
+.card .van img{
+    position: absolute;
+    left: 100px;
+    top: 280px;
+    width: 90px; 
+    height: 90px;
+    border-radius: 20px;
+}
+
+.card .van .btn-add{
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 890px;
+    font-size: medium;
+    background-color: rgb(6, 71, 0);
+    border: 1px solid rgb(6, 71, 0);
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3;
+}
+
+.card .van .btn-add:hover{
+    background-color: black;
+    border-color: black;
 }

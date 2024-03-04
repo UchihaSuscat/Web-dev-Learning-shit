@@ -139,6 +139,7 @@ body{
 }
 
 .card .straw{
+    cursor: pointer;
     background-color: white;
     width: fit-content;
     height: 120px;

@@ -6,12 +6,17 @@ body {
     color: white;
 }
 
-.about{
-    position: absolute;
-    margin: 0px 650px;
-    color: #fff;
-    font-size: larger;
-    font-weight: bolder;
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100p;
+}
+
+
+.aboutme{
+    display: flex;
+    justify-content: center;
 }
 
 .content{

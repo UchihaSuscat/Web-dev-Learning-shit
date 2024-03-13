@@ -338,50 +338,6 @@ footer .column > a:hover{
 
 /* mobile */
 
-@media (max-width: 600px) {
-    .nav-links {
-        display: none;
-    }
-
-    .nav-links.active {
-        display: flex;
-        flex-direction: column;
-        background-color: #1d4ed8;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        z-index: 1000;
-    }
-
-    .nav-links.active a {
-        color: white;
-        padding: 10px;
-        text-align: center;
-        border-radius: 0;
-    }
-}
-
-/* Tablet and larger screens styles */
-
-@media (min-width: 601px) {
-    .nav-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nav-links a {
-        margin: 0 10px;
-        text-decoration: none;
-        color: white;
-        font-size: large;
-        font-weight: bold;
-        border-radius: 20px;
-        transition: color 0.5s;
-    }
-
-    .nav-links a:hover {
-        color: red;
-    }
+@media screen and (max-width: 786px){
+    
 }

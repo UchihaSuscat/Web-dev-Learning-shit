@@ -1,0 +1,173 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Madimi', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.banner {
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
+
+.banner h3 {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-style: normal;
+}
+
+    /* NAVBAR START */
+
+nav {
+    background-color: black;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 50px;
+    font-style: italic;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid red;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: aqua;
+    border: 1px solid white;
+}
+
+/* NAVBAR END */
+
+/* HERO */
+
+.hero {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    height: 80vh;
+}
+
+nav .cart {
+    order: 1;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60vh;
+    padding: 3rem;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 2rem;
+}
+
+.column-left h1 {
+    color: red;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.column-left p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: white;
+}
+
+.column-left button {
+    background: red;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+
+.column-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-right img {
+    border-radius: 50px;
+    width: 500px;
+}  
+/* HERO END */
+
+/* WELCOME */
+
+.welcome {
+    background-color: black;
+    color: white;
+    height: 30vh;
+    margin: 5px 0;
+    border: 2px solid white;
+}
+
+.welcome-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-container h1 {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px 2px;
+}
+
+.welcome-container p {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
